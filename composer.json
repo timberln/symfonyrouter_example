@@ -1,0 +1,19 @@
+{
+    "name": "brandon.braner/srouter",
+    "require": {
+        "symfony/routing": "^4.1",
+        "symfony/http-foundation": "^4.1",
+        "symfony/config": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "Brandon Braner",
+            "email": "brandon.braner@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
